@@ -1,0 +1,14 @@
+.mainContent__overlay {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.mainContent__overlay:after {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 80%);
+}

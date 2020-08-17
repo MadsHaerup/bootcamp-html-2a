@@ -1,0 +1,22 @@
+.mainHeader__navigationMenu {
+    border-top: solid 1px hsl(0, 0%, 90%);
+    border-bottom: solid 3px hsl(0, 0%, 90%);
+}
+
+.mainHeader__navigationMenu>ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.mainHeader__navigationMenu>ul>li {
+    padding-right: 3em;
+    font-weight: bold;
+}
+
+.mainHeader__navigationMenu>ul>li:last-of-type {
+    padding-right: 0em;
+    color: hsl(0, 93%, 39%);
+}

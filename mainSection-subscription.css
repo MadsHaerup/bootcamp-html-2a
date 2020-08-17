@@ -1,0 +1,19 @@
+.mainContent__subscription {
+    position: absolute;
+    top: 60%;
+    left: 12%;
+}
+
+.mainContent__subscription {
+    text-align: center;
+}
+
+.klikHer {
+    background-color: crimson;
+    padding: 0.7em;
+    width: 180px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5%;
+    margin: 1em 0 1em 0;
+}

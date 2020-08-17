@@ -1,0 +1,15 @@
+@import "./mainContent-subscription.css";
+@import "./mainContent-soMe.css";
+@import "./mainContent-overlay.css";
+.mainArticle__mainContent {
+    grid-area: content;
+    position: relative;
+}
+
+.mainContent__text {
+    grid-column: 1 / span 5;
+}
+
+.mainContent__secondText {
+    grid-column: 1 / span 9;
+}

@@ -1,6 +1,19 @@
 @import './heading.css';
 @import './article-summary.css';
-
 .mainArticle__articleHeader {
-	grid-area: teaser;
+    grid-area: teaser;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.mainArticle__Abonnement {
+    color: hsl(0, 93%, 39%);
+}
+
+.mainArticle__Abonnement span {
+    color: hsl(0, 0%, 65%);
+}
+
+.mainArticle__Abonnement {
+    grid-column: 1 / span 9;
 }

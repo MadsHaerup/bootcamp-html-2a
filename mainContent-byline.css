@@ -1,0 +1,11 @@
+.mainContent__byline {
+    grid-area: byline;
+}
+
+.skribent_image {
+    float: left;
+}
+
+.byline__contact {
+    display: flex;
+}

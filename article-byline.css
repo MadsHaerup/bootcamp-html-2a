@@ -1,0 +1,17 @@
+.article__byline {
+    grid-area: byline;
+}
+
+.skribent_image {
+    float: left;
+    border-radius: 50%;
+}
+
+.byline__contact {
+    display: flex;
+}
+
+.email_icon,
+.twitter_icon {
+    border-radius: 70%;
+}

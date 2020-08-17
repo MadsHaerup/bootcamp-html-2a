@@ -1,0 +1,21 @@
+@import "./mainContent-byline.css";
+@import "./mainContent-soMe.css";
+@import "./mainContent-overlay.css";
+.mainContent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "udland comment comment comment" "byline soMe soMe .";
+}
+
+.mainContent__text {
+    grid-area: soMe;
+}
+
+.skribent_image {
+    border-radius: 50%;
+}
+
+.email_icon,
+.twitter_icon {
+    border-radius: 70%;
+}

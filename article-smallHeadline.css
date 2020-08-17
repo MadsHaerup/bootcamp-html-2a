@@ -1,0 +1,23 @@
+.smallHeadline {
+    grid-area: title;
+    align-self: center;
+    color: rgb(255, 0, 0);
+    margin: 1em 0 1em 0;
+}
+
+.smallHeadline__commentcount {
+    grid-area: comment;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-self: center;
+    justify-items: end;
+}
+
+.smallHeadline__feedback {
+    grid-column: 8 / span 2;
+}
+
+.smallHeadline__date {
+    grid-column: 1 / span 2;
+    justify-self: start;
+}

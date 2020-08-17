@@ -1,0 +1,27 @@
+@import "./mainHeader-navigationMenu.css";
+.mainHeader__menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2em;
+}
+
+.mainHeader__secondaryMenu {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.mainHeader__secondaryMenu>i,
+.mainHeader__secondaryMenu>p,
+.mainHeader__utilityMenu>p {
+    padding-right: 1em;
+}
+
+.mainHeader__utilityMenu {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+}

@@ -1,1 +1,16 @@
 @import './main-article.css';
+@import "./wrapper.css";
+@import "./mainHeader-menu.css";
+@import "./main-annonce.css";
+@import "./main-section.css";
+@import "./mainCommentsection.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

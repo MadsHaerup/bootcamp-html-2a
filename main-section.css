@@ -1,0 +1,58 @@
+@import "./mainSection-subscription.css";
+@import "./mainSection-news.css";
+@import "./mainCommentsection.css";
+.mainSection {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "line line line line" "news news news news" "info info info info" "side mainnews mainnews mainnews" "break1 break break break" "com comSec comSec comSec";
+    margin-right: 14em;
+}
+
+.mainSection h4 {
+    grid-area: line;
+    grid-column: 1/span 5;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+    margin-top: 2em;
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+}
+
+.mainSection__latest h5 {
+    color: rgb(255, 0, 0);
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.mainSection__latest {
+    margin: 1em 0 1em 0;
+}
+
+.mainSection__sideNews {
+    grid-area: side;
+    margin-right: 1em;
+}
+
+.mainSection__sideNews div {
+    margin-bottom: 1em;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+    ;
+}
+
+.mainSection__newsBox {
+    grid-area: mainnews;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1em;
+}
+
+.newsBox h6 {
+    color: rgb(255, 0, 0);
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.newsBox__title {
+    grid-column: 1/span 3;
+}
